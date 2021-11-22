@@ -1,0 +1,204 @@
+﻿nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+    nav ul, footer ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        padding: 0%;
+        width: 70%;
+    }
+
+        nav ul li, footer ul li {
+            text-align: center;
+            width: 100%;
+        }
+
+            nav ul li a {
+                display: inline-block;
+                padding: 10px 0;
+                width: 100%;
+                text-decoration: underline;
+                color: black;
+            }
+
+#divBusca {
+    align-content:center;
+    background-color: #2f4f4f00;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#divBusca2 {
+    align-content: center;
+    background-color: #2f4f4f00;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 240px;
+}
+#h1
+ {
+    float: center;
+    padding-left:5px;
+     font-style: italic;
+     text-align: right;
+     font-size: 30px;
+     border: none;
+     height: 32px;
+     width: 240px;
+ }
+#d2
+{
+    text-align: left;
+}
+
+#divcadastro
+{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 240px;
+}
+#h2
+{
+   float: center;
+   padding-left: 5px;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    height: 32px;
+    width: 240px;
+    color: red;
+}
+#recuperar{
+    text-align: left;
+    font-size: 14px;
+    border: none;
+    height: 32px;
+    width: 240px;
+}
+#recuperar2{
+    text-align: left;
+    font-size: 14px;
+    border: none;
+    height: 32px;
+    width: 240px;
+}
+#divEntrar
+{
+    float: right;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 240px;
+}
+
+#divEntrar2
+{
+    float: right;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 240px;   
+}
+.botao {
+    color: rgba(245, 145, 109, 0.945);
+    text-decoration: none;
+    background-color: transparent;
+    border: solid 1px rgba(245, 145, 109, 0.945);
+    border-radius: 15px;
+    width: 140px;
+    height: 12px;
+    padding: 10px 30px;
+    font-size: .9em;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.botao2{
+    color: rgba(245, 145, 109, 0.945);
+    text-decoration: none;
+    background-color: transparent;
+    border: solid 1px rgba(245, 145, 109, 0.945);
+    border-radius: 15px;
+    width: 140px;
+    height: 12px;
+    padding: 10px 30px;
+    font-size: .9em;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.mais {
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+    border: solid 1px red;
+    border-radius: 15px;
+    width: 140px;
+    height: 10px;
+    padding: 10px 30px;
+    font-size: .9em;
+    text-align: center;
+}
+
+footer {
+    margin-top: 60px;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    position: absolute;
+    bottom: -5;
+    width: 97%;
+}
+
+    footer > a {
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+    }
+
+    footer ul li a {
+        font-size: 15px;
+        display: inline-block;
+        padding: 10px 0;
+        width: 100%;
+        text-decoration: underline;
+        color: white;
+        align-items: center;
+    }
+
+    footer a img {
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+      }
